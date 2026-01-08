@@ -24,6 +24,8 @@ export default defineConfig({
   },
   integrations: [
     starlight({
+      // defaultTheme: 'light',
+      // respectUserThemePreference: 'light',
       title,
       logo: {
         light: logo,
