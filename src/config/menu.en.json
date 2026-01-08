@@ -7,21 +7,6 @@
     {
       "name": "Documentation",
       "url": "/getting-started/introduction/overview/"
-    },
-    {
-      "name": "Reference",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Configuration",
-          "url": "/reference/configuration/"
-        },
-        {
-          "name": "Plugins Reference",
-          "url": "/reference/plugin/"
-        }
-      ]
     }
   ],
   "footer": {
@@ -54,20 +39,12 @@
           "url": "/"
         },
         {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
-        },
-        {
           "name": "Terms and Conditions",
           "url": "/terms-conditions"
         },
         {
           "name": "About Us",
           "url": "/about"
-        },
-        {
-          "name": "Troubleshooting",
-          "url": "/"
         }
       ]
     },
@@ -79,19 +56,11 @@
           "url": "/docs/"
         },
         {
-          "name": "Theme Gallery",
-          "url": "/"
-        },
-        {
           "name": "Best Practices",
           "url": "/"
         },
         {
           "name": "Performance Tips",
-          "url": "/"
-        },
-        {
-          "name": "Migration Guide",
           "url": "/"
         }
       ]

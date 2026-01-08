@@ -26,11 +26,11 @@ The main configuration file controls your site's basic settings:
 ```json
 {
   "site": {
-    "title": "DocKit Documentation",
-    "description": "Beautiful documentation made simple",
-    "author": "Your Name",
-    "email": "your.email@example.com",
-    "base_url": "https://yourdomain.com"
+    "title": "Forwardkind Documentation",
+    "description": "tbd",
+    "author": "Josef Scarantino",
+    "email": "hello@forwardkind.com",
+    "base_url": "https://docs.forwardkind.com"
   },
   "metadata": {
     "meta_author": "DocKit Team",
@@ -71,7 +71,7 @@ Customize your site's visual appearance:
     "enable_toc": true
   },
   "features": {
-    "dark_mode": true,
+    "dark_mode": false,
     "search": true,
     "print_button": true,
     "edit_page": true
@@ -170,11 +170,6 @@ Set up multi-language support:
     "en": {
       "label": "English",
       "lang": "en",
-      "dir": "ltr"
-    },
-    "de": {
-      "label": "Deutsch", 
-      "lang": "de",
       "dir": "ltr"
     }
   }
