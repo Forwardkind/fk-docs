@@ -2,7 +2,7 @@
   "site": {
     "title": "Forwardkind",
     "logo": "/src/assets/fk-logo-small.png",
-    "logo_darkmode": "/src/assets/logo-dark.svg",
+    "logo_darkmode": "/src/assets/fk-logo-small.png",
     "logo_width": "200",
     "logo_height": "34",
     "logo_text": ""
@@ -18,7 +18,7 @@
       "enable": false,
       "action": "#"
     },
-    "copyright": "Designed and Developed by <a class=\"text-primary hover:underline no-underline\" href=\"https://themefisher.com\" target=\"_blank\" rel=\"noopener\" aria-label=\"Themefisher\">Themefisher</a> Copyright &copy; 2025."
+    "copyright": "&copy; 2025-2026 Forwardkind, a Colorado Public Benefit LCA"
   },
 
   "navigation_button": {
