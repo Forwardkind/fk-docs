@@ -3,9 +3,9 @@ title: Decision-Making & Participation
 description: Welcome to DocKit - A modern documentation theme built with Astro and Starlight for creating beautiful, fast, and accessible documentation sites.
 
 sidebar:
-  label: "[seti:lock] Decision-Making & Participation"
+  label: "Decision-Making"
   sidebar:
-  order: 0
+  order: 1
 ---
 
 # Welcome to DocKit
