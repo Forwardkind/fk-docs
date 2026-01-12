@@ -11,6 +11,8 @@ import sidebar from "./src/config/sidebar.json";
 
 import { fileURLToPath } from "url";
 
+import cloudflare from "@astrojs/cloudflare";
+
 const { site } = config;
 const { title, logo, logo_darkmode } = site;
 
@@ -20,9 +22,11 @@ export const locales = locals
 // https://astro.build/config
 export default defineConfig({
   site: 'https://docs.forwardkind.com',
+
   image: {
     service: { entrypoint: "astro/assets/services/noop" },
   },
+
   integrations: [
     starlight({
       // defaultTheme: 'light',
@@ -54,6 +58,7 @@ export default defineConfig({
       
     }),
   ],
+
   vite: {
     plugins: [tailwindcss(),viewTransitions()],
     resolve: {
@@ -63,4 +68,6 @@ export default defineConfig({
       },
     },
   },
+
+  adapter: cloudflare(),
 });
