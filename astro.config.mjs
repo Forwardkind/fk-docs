@@ -19,15 +19,14 @@ export const locales = locals
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://forwardkind.github.io',
-  base: '/fk-docs',
+  site: 'https://docs.forwardkind.com',
   image: {
     service: { entrypoint: "astro/assets/services/noop" },
   },
   integrations: [
     starlight({
-      defaultTheme: 'light',
-      respectUserThemePreference: 'light',
+      // defaultTheme: 'light',
+      // respectUserThemePreference: 'light',
       title,
       logo: {
         light: logo,
