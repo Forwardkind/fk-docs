@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Astro Deploy
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -37,6 +37,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Astro Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: withastro/action@v5.0.2
