@@ -19,7 +19,7 @@ export const locales = locals
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://forwardkind.github.io/fk-docs/',
+  site: 'https://forwardkind.github.io',
   base: '/fk-docs',
   image: {
     service: { entrypoint: "astro/assets/services/noop" },
